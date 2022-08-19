@@ -69,7 +69,7 @@ class ElsSearch():
         return self._sort
 
     @sort.setter
-    def date(self, sort):
+    def sort(self, sort):
         """Sets the search sort type"""
         self._sort = sort
 
